@@ -23,6 +23,7 @@
         android:visibility="visible"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_play"
         android:layout_width="match_parent"
         android:layout_height="600px"
         android:background="@drawable/ring_background"
@@ -30,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:visibility="visible">
+        android:visibility="invisible">
 
         <TextView
             android:id="@+id/textView"
